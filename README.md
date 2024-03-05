@@ -5,13 +5,13 @@
 <br>This repository contains the code for a Cell-Cell Interactome shiny app for exploring cell-cell interactions between different cell types.
 The app takes four uploads, all in the form of an .rds file (must be lowercase); 
 1.	Interactome Data: An rds file containing at least the following columns of data:
-•	‘source’: Interacting cell expressing a ligand
-•	‘target’: Target cell the source cell is interacting with
-•	‘ligand’: Ligand being expressed by the source cell
-•	‘receptor’: Receptor expressed by target cell
-•	‘timepoints’: Timepoints at which the above are expressed. Covered in this app are ‘Healthy’, ‘Diagnosis’, ‘Relapse’ and ‘Post-treatment’. 
-•	‘aggregate_rank_(Timepoint)’ : an aggregate rank score generated using liana_aggregate function. Timepoint should be replaced with Healthy, Diagnosis etc. and is case sensitive
-2.	A Ligand-Receptor Matrix: An rds file NB: Only required for generation of Violin plots, other plots will load without uploading this data
+*	‘source’: Interacting cell expressing a ligand
+*	‘target’: Target cell the source cell is interacting with
+* ‘ligand’: Ligand being expressed by the source cell
+*	‘receptor’: Receptor expressed by target cell
+*	‘timepoints’: Timepoints at which the above are expressed. Covered in this app are ‘Healthy’, ‘Diagnosis’, ‘Relapse’ and ‘Post-treatment’. 
+*	‘aggregate_rank_(Timepoint)’ : an aggregate rank score generated using liana_aggregate function. Timepoint should be replaced with Healthy, Diagnosis etc. and is case sensitive
+2.	A Ligand-Receptor Matrix: An rds file -- NB: Only required for generation of Violin plots, other plots will load without uploading this data
 3.	Meta Data: An rds file containing UMI barcodes, their associated timepoint and their cell type. NB: Only required for generation of Violin plots, other plots will load without uploading this data
 4.	A Colour Palette: An rds file that is a list of 2 lists; ‘timepoint’ and ‘celltype’. 
 •	‘timepoint’ contains each timepoint e.g ‘Healthy’ and an associated colour. 
