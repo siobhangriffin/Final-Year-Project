@@ -1,4 +1,4 @@
-# Cell-Cell Interactome<img src="https://github.com/siobhangriffin/Final-Year-Project/raw/main/cellinteractome.png" width="200" align='right'/>
+# Cell-Cell Interactome<img src="https://github.com/siobhangriffin/Final-Year-Project/raw/main/cellinteractome.png" width="500" align='right'/>
 
 
 
